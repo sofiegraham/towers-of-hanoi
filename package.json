@@ -4,7 +4,8 @@
   "description": "hanoi game",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node bin/main.js"
   },
   "author": "sofie graham",
   "license": "ISC",

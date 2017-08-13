@@ -1,7 +1,7 @@
 const assert = require('assert');
 const Board = require("../lib/board.js");
 const Disc = require("../lib/disc.js");
-const Game = require("../bin/game.js");
+const Game = require("../lib/game.js");
 
 describe('Disc', function() {
   let disc6;
@@ -107,20 +107,18 @@ describe('Board', function() {
       assert(newBoard.move(2, 3) === false);
     });
 
-
-
   })
 
 
 
 
-  // describe('promptMove()' function(){
-  //
-  //   it('should recieve a move from the player', function() {
-  //     assert()
-  //
-  //   })
-  // })
+  describe('promptMove()' function(){
+
+    it('should recieve a move from the player', function() {
+      assert()
+
+    })
+  })
 
 })
 
