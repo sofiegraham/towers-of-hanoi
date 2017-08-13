@@ -133,8 +133,8 @@ describe('Board', function() {
     });
 
     it('returns false when the game is not yet complete', function() {
-      testBoard[1][0] = new Disc(3);
-      testBoard[2][0] = new Disc(4);
+      testBoard.stacks[1][0] = new Disc(3);
+      testBoard.stacks[2][0] = new Disc(4);
       assert(testBoard.isWon() === false);
     });
 
